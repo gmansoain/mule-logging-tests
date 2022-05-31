@@ -20,4 +20,7 @@ output application/java
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="508b6f62-a285-411e-b4c0-c651376a96fa" />
 	</flow>
+	<flow name="logging-testsFlow1" doc:id="4e530bb1-8c6f-49a7-a45d-766617266e9f" >
+		<http:listener doc:name="Listener" doc:id="e7e44cd9-815b-458c-8a82-8263ef89fdcb" />
+	</flow>
 </mule>
